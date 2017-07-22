@@ -2,7 +2,10 @@ package com.aldofieuw.android.newsapp;
 
 public class News {
 
-    private String mTitle, mSection, mWebUrl,mDate;
+    private String mTitle;
+    private String mSection;
+    private String mWebUrl;
+    private String mDate;
 
     public News(String mTitle, String mSection, String mWebUrl, String mDate) {
         this.mTitle = mTitle;
